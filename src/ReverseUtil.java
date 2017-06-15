@@ -13,7 +13,6 @@ public class ReverseUtil {
 		int n = 10;
 		int reversedNumber = 0;
 		while ( number >= 1) {
-			
 			reversedNumber = reversedNumber * n + number % 10;
 			number = number / 10;
 		}
